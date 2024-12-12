@@ -4,23 +4,6 @@
     "categoryOrder": "0",
     "category": "Configuration Management",
     "functionOrder": "1",
-    "function": "Whiteboarding",
-    "feature": "Pencil for freeform drawing of any shapes",
-    "subscription_tier": "Free",
-    "comparison_tiers": {
-      "free": "x",
-      "teamDesigner": "x",
-      "teamOperator": "x",
-      "enterprise": "x"
-    },
-    "pricing_page": "x",
-    "docs": "https://docs.layer5.io/kanvas/designer/whiteboarding/"
-  },
-  {
-    "theme": "",
-    "categoryOrder": "0",
-    "category": "Configuration Management",
-    "functionOrder": "1",
     "function": "Infrastructure as Design",
     "feature": "Drag-n-drop cloud native infrastructure designer to configure, model, and deploy your workloads",
     "subscription_tier": "Free",
@@ -37,9 +20,43 @@
     "theme": "",
     "categoryOrder": "0",
     "category": "Configuration Management",
-    "functionOrder": "2",
-    "function": "350 Built-in Models",
-    "feature": "Thousands of standardized components to represent complex systems, providing logical architecture of your infrastructure.",
+    "functionOrder": "1",
+    "function": "Import your IaC",
+    "feature": "Import a design from Kubernetes Manifest, Helm Chart, Docker Compose or Artifact Hub.",
+    "subscription_tier": "",
+    "comparison_tiers": {
+      "free": "x",
+      "teamDesigner": "x",
+      "teamOperator": "",
+      "enterprise": "x"
+    },
+    "pricing_page": "x",
+    "docs": "https://docs.meshery.io/extensions/importing-a-design"
+  },
+  {
+    "theme": "",
+    "categoryOrder": "0",
+    "category": "Configuration Management",
+    "functionOrder": "1",
+    "function": "Bulk Import IaC",
+    "feature": "Bulk import designs from GitHub",
+    "subscription_tier": "",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "",
+      "enterprise": "x"
+    },
+    "pricing_page": "x",
+    "docs": "https://docs.layer5.io/cloud/getting-started/github-integration/"
+  },
+  {
+    "theme": "",
+    "categoryOrder": "0",
+    "category": "Configuration Management",
+    "functionOrder": "1",
+    "function": "Export Designs",
+    "feature": "Export a latest version of design in Meshery Design (OCI format, YAML, or JSON). Export a design in source type format (Kubernetes Manifest, Helm Chart, Docker Compose, Artifact Hub).",
     "subscription_tier": "Free",
     "comparison_tiers": {
       "free": "x",
@@ -48,16 +65,16 @@
       "enterprise": "x"
     },
     "pricing_page": "x",
-    "docs": ""
+    "docs": "https://docs.layer5.io/kanvas/designer/export-designs/#exporting-as-a-design-file"
   },
   {
     "theme": "",
     "categoryOrder": "0",
     "category": "Configuration Management",
     "functionOrder": "2",
-    "function": "Layers",
-    "feature": "Use layers to show, hide, and group objects on the same board—perfect for building detailed diagrams or revealing project phases.",
-    "subscription_tier": "",
+    "function": "350 Built-in Models",
+    "feature": "Thousands of standardized components to represent complex systems, providing logical architecture of your infrastructure.",
+    "subscription_tier": "Free",
     "comparison_tiers": {
       "free": "x",
       "teamDesigner": "x",
@@ -259,7 +276,7 @@
     "categoryOrder": "1",
     "category": "Lifecycle Management",
     "functionOrder": "2",
-    "function": "Design dry-run",
+    "function": "Deployment dry-run",
     "feature": "Test and verify configuration changes in a separate environment.",
     "subscription_tier": "TeamOperator",
     "comparison_tiers": {
@@ -307,11 +324,79 @@
   },
   {
     "theme": "",
+    "categoryOrder": "1",
+    "category": "Lifecycle Management",
+    "functionOrder": "4",
+    "function": "Orchestration: Pre-provisioning",
+    "feature": "Validate infrastructure configuration. Dry-run infrastructure deployment.",
+    "subscription_tier": "TeamOperator",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "x",
+      "enterprise": ""
+    },
+    "pricing_page": "",
+    "docs": "https://docs.layer5.io/kanvas/tasks/designs/validating-designs/"
+  },
+  {
+    "theme": "",
+    "categoryOrder": "1",
+    "category": "Lifecycle Management",
+    "functionOrder": "4",
+    "function": "Orchestration: Provisioning",
+    "feature": "Provision and deprovision cloud native infrastructure using your designs.",
+    "subscription_tier": "TeamOperator",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "x",
+      "enterprise": ""
+    },
+    "pricing_page": "",
+    "docs": "https://docs.layer5.io/kanvas/tasks/designs/deploying-designs/"
+  },
+  {
+    "theme": "",
+    "categoryOrder": "1",
+    "category": "Lifecycle Management",
+    "functionOrder": "4",
+    "function": "Orchestration: Deprovisioning",
+    "feature": "Retract all resources used in a Meshery design from the cluster",
+    "subscription_tier": "TeamOperator",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "x",
+      "enterprise": ""
+    },
+    "pricing_page": "",
+    "docs": "https://docs.layer5.io/kanvas/tasks/designs/undeploying-designs/"
+  },
+  {
+    "theme": "",
     "categoryOrder": "2",
     "category": "Kanvas",
     "functionOrder": "1",
+    "function": "Whiteboarding",
+    "feature": "Pencil for freeform drawing of any shapes",
+    "subscription_tier": "Free",
+    "comparison_tiers": {
+      "free": "x",
+      "teamDesigner": "x",
+      "teamOperator": "x",
+      "enterprise": "x"
+    },
+    "pricing_page": "x",
+    "docs": "https://docs.layer5.io/kanvas/designer/whiteboarding/"
+  },
+  {
+    "theme": "",
+    "categoryOrder": "2",
+    "category": "Kanvas",
+    "functionOrder": "2",
     "function": "500 Built-in Shapes, Pen and Pencil",
-    "feature": "Draw shapes, lines, text, add custom styles, images and icons to represent the components and relationships of Kubernetes clusters as they see fit. This permission grants the user the ability to delete a shape from canvas.",
+    "feature": "Draw shapes, lines, text, customize style, drag and drop images and text files to represent the components and relationships of between your infrastructure components.",
     "subscription_tier": "",
     "comparison_tiers": {
       "free": "x",
@@ -326,17 +411,17 @@
     "theme": "",
     "categoryOrder": "2",
     "category": "Kanvas",
-    "functionOrder": "1",
-    "function": "Non-semantic Annotations",
-    "feature": "Kanvas Designer allows you to draw shapes, lines, text, customize style, drag and drop images and text files to represent the components and relationships of between your infrastructure components.",
+    "functionOrder": "3",
+    "function": "Layers",
+    "feature": "Use layers to show, hide, and group objects on the same board—perfect for building detailed diagrams or revealing project phases.",
     "subscription_tier": "",
     "comparison_tiers": {
       "free": "x",
       "teamDesigner": "x",
-      "teamOperator": "",
+      "teamOperator": "x",
       "enterprise": "x"
     },
-    "pricing_page": "",
+    "pricing_page": "x",
     "docs": ""
   },
   {
@@ -480,13 +565,13 @@
     "categoryOrder": "4",
     "category": "Collaboration",
     "functionOrder": "1",
-    "function": "Create and collaborate in online designs in real-time.",
+    "function": "Collaborative Infrastructure Design",
     "feature": "Create and collaborate in online designs in real-time.",
-    "subscription_tier": "Free",
+    "subscription_tier": "TeamDesigner|TeamOperator",
     "comparison_tiers": {
-      "free": "x",
+      "free": "",
       "teamDesigner": "x",
-      "teamOperator": "x",
+      "teamOperator": "",
       "enterprise": "x"
     },
     "pricing_page": "x",
@@ -496,13 +581,13 @@
     "theme": "",
     "categoryOrder": "4",
     "category": "Collaboration",
-    "functionOrder": "2",
-    "function": "Team Chat",
-    "feature": "Message in real-time, unattached to a specific design. Control who can pariticpate in the discussion.",
-    "subscription_tier": "Enterprise",
+    "functionOrder": "1",
+    "function": "Collaborative Infrastructure Views",
+    "feature": "Simultaneously manage your infrastructure using shared views in real-time.",
+    "subscription_tier": "TeamOperator",
     "comparison_tiers": {
       "free": "",
-      "teamDesigner": "x",
+      "teamDesigner": "",
       "teamOperator": "x",
       "enterprise": "x"
     },
@@ -525,23 +610,6 @@
     },
     "pricing_page": "x",
     "docs": ""
-  },
-  {
-    "theme": "",
-    "categoryOrder": "4",
-    "category": "Collaboration",
-    "functionOrder": "",
-    "function": "Design Reviews",
-    "feature": "Discuss any design by leaving review comments or notes on a specific design. Control who has access, notify discussion participants with updates, and link from anywhere.",
-    "subscription_tier": "TeamDesigner",
-    "comparison_tiers": {
-      "free": "",
-      "teamDesigner": "x",
-      "teamOperator": "",
-      "enterprise": "x"
-    },
-    "pricing_page": "x",
-    "docs": "https://docs.layer5.io/kanvas/designer/comments/"
   },
   {
     "theme": "",
@@ -681,57 +749,6 @@
   },
   {
     "theme": "",
-    "categoryOrder": "5",
-    "category": "Identity & Access Management",
-    "functionOrder": "6",
-    "function": "User Provisioning through SCIM",
-    "feature": "Use your existing accounts and centrally manage access.",
-    "subscription_tier": "",
-    "comparison_tiers": {
-      "free": "",
-      "teamDesigner": "",
-      "teamOperator": "",
-      "enterprise": "x"
-    },
-    "pricing_page": "x",
-    "docs": ""
-  },
-  {
-    "theme": "",
-    "categoryOrder": "5",
-    "category": "Identity & Access Management",
-    "functionOrder": "6",
-    "function": "Public Profiles for Users",
-    "feature": "See public user profile details, public activities and public resources.",
-    "subscription_tier": "Free",
-    "comparison_tiers": {
-      "free": "x",
-      "teamDesigner": "",
-      "teamOperator": "",
-      "enterprise": ""
-    },
-    "pricing_page": "",
-    "docs": ""
-  },
-  {
-    "theme": "",
-    "categoryOrder": "5",
-    "category": "Identity & Access Management",
-    "functionOrder": "6",
-    "function": "Self-service user accounts",
-    "feature": "New user sign-up verification. Self-service password recovery.",
-    "subscription_tier": "Free",
-    "comparison_tiers": {
-      "free": "x",
-      "teamDesigner": "",
-      "teamOperator": "",
-      "enterprise": "x"
-    },
-    "pricing_page": "",
-    "docs": "https://docs.layer5.io/cloud/getting-started/getting-started-with-layer5-account/#7-viewing-your-layer5-profile"
-  },
-  {
-    "theme": "",
     "categoryOrder": "6",
     "category": "Workspaces",
     "functionOrder": "1",
@@ -780,57 +797,6 @@
     },
     "pricing_page": "x",
     "docs": ""
-  },
-  {
-    "theme": "",
-    "categoryOrder": "7",
-    "category": "Catalog",
-    "functionOrder": "1",
-    "function": "Import your IaC",
-    "feature": "Import a design from Kubernetes Manifest, Helm Chart, Docker Compose or Artifact Hub.",
-    "subscription_tier": "",
-    "comparison_tiers": {
-      "free": "x",
-      "teamDesigner": "x",
-      "teamOperator": "",
-      "enterprise": "x"
-    },
-    "pricing_page": "x",
-    "docs": "https://docs.meshery.io/extensions/importing-a-design"
-  },
-  {
-    "theme": "",
-    "categoryOrder": "7",
-    "category": "Catalog",
-    "functionOrder": "1",
-    "function": "Premium Import IaC",
-    "feature": "Bulk import designs from GitHub",
-    "subscription_tier": "",
-    "comparison_tiers": {
-      "free": "",
-      "teamDesigner": "",
-      "teamOperator": "",
-      "enterprise": "x"
-    },
-    "pricing_page": "x",
-    "docs": "https://docs.layer5.io/cloud/getting-started/github-integration/"
-  },
-  {
-    "theme": "",
-    "categoryOrder": "7",
-    "category": "Catalog",
-    "functionOrder": "1",
-    "function": "Export Designs",
-    "feature": "Export a latest version of design in Meshery Design (OCI format, YAML, or JSON). Export a design in source type format (Kubernetes Manifest, Helm Chart, Docker Compose, Artifact Hub).",
-    "subscription_tier": "Free",
-    "comparison_tiers": {
-      "free": "x",
-      "teamDesigner": "x",
-      "teamOperator": "x",
-      "enterprise": "x"
-    },
-    "pricing_page": "x",
-    "docs": "https://docs.layer5.io/kanvas/designer/export-designs/#exporting-as-a-design-file"
   },
   {
     "theme": "",
@@ -899,57 +865,6 @@
     },
     "pricing_page": "",
     "docs": "https://docs.layer5.io/kanvas/tasks/designs/cloning-a-design/"
-  },
-  {
-    "theme": "",
-    "categoryOrder": "7",
-    "category": "Catalog",
-    "functionOrder": "4",
-    "function": "Orchestration: Pre-provisioning",
-    "feature": "Validate infrastructure configuration. Dry-run infrastructure deployment.",
-    "subscription_tier": "TeamOperator",
-    "comparison_tiers": {
-      "free": "",
-      "teamDesigner": "",
-      "teamOperator": "x",
-      "enterprise": ""
-    },
-    "pricing_page": "",
-    "docs": "https://docs.layer5.io/kanvas/tasks/designs/validating-designs/"
-  },
-  {
-    "theme": "",
-    "categoryOrder": "7",
-    "category": "Catalog",
-    "functionOrder": "4",
-    "function": "Orchestration: Provisioning",
-    "feature": "Provision and deprovision cloud native infrastructure using your designs.",
-    "subscription_tier": "TeamOperator",
-    "comparison_tiers": {
-      "free": "",
-      "teamDesigner": "",
-      "teamOperator": "x",
-      "enterprise": ""
-    },
-    "pricing_page": "",
-    "docs": "https://docs.layer5.io/kanvas/tasks/designs/deploying-designs/"
-  },
-  {
-    "theme": "",
-    "categoryOrder": "7",
-    "category": "Catalog",
-    "functionOrder": "4",
-    "function": "Orchestration: Deprovisioning",
-    "feature": "Retract all resources used in a Meshery design from the cluster",
-    "subscription_tier": "TeamOperator",
-    "comparison_tiers": {
-      "free": "",
-      "teamDesigner": "",
-      "teamOperator": "x",
-      "enterprise": ""
-    },
-    "pricing_page": "",
-    "docs": "https://docs.layer5.io/kanvas/tasks/designs/undeploying-designs/"
   },
   {
     "theme": "",
@@ -1056,6 +971,74 @@
   {
     "theme": "",
     "categoryOrder": "9",
+    "category": "Managed Service Provider",
+    "functionOrder": "6",
+    "function": "User Provisioning through SCIM",
+    "feature": "Use your existing accounts and centrally manage access.",
+    "subscription_tier": "",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "",
+      "enterprise": "x"
+    },
+    "pricing_page": "x",
+    "docs": ""
+  },
+  {
+    "theme": "",
+    "categoryOrder": "9",
+    "category": "Managed Service Provider",
+    "functionOrder": "6",
+    "function": "Public Profiles for Users",
+    "feature": "See public user profile details, public activities and public resources.",
+    "subscription_tier": "",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "",
+      "enterprise": "x"
+    },
+    "pricing_page": "",
+    "docs": ""
+  },
+  {
+    "theme": "",
+    "categoryOrder": "9",
+    "category": "Managed Service Provider",
+    "functionOrder": "6",
+    "function": "Recognition Program Badges",
+    "feature": "Badges are visual indicators of achievements or milestones that users can earn in order to recognizing activity milestones, encouraging positive behavior, mark progress, and gamifying platform experience.",
+    "subscription_tier": "",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "",
+      "enterprise": "x"
+    },
+    "pricing_page": "",
+    "docs": ""
+  },
+  {
+    "theme": "",
+    "categoryOrder": "9",
+    "category": "Managed Service Provider",
+    "functionOrder": "6",
+    "function": "Self-service User Accounts",
+    "feature": "New user sign-up verification. Self-service password recovery.",
+    "subscription_tier": "",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "",
+      "enterprise": "x"
+    },
+    "pricing_page": "",
+    "docs": "https://docs.layer5.io/cloud/getting-started/getting-started-with-layer5-account/#7-viewing-your-layer5-profile"
+  },
+  {
+    "theme": "",
+    "categoryOrder": "10",
     "category": "Support and Deployment",
     "functionOrder": "1",
     "function": "Community Support",
@@ -1072,7 +1055,7 @@
   },
   {
     "theme": "",
-    "categoryOrder": "9",
+    "categoryOrder": "10",
     "category": "Support and Deployment",
     "functionOrder": "2",
     "function": "Standard Support",
@@ -1089,11 +1072,11 @@
   },
   {
     "theme": "",
-    "categoryOrder": "9",
+    "categoryOrder": "10",
     "category": "Support and Deployment",
     "functionOrder": "3",
     "function": "Managed Service Provider",
-    "feature": "White Label: Customize the appearance and branding of your engineering platform powered by Layer5 Cloud.",
+    "feature": "White Label: Customize the appearance and branding of your engineering platform powered by Layer5 Cloud. Hierarchical user organizations and permissioning. Enforcement of tenancy.",
     "subscription_tier": "Enterprise",
     "comparison_tiers": {
       "free": "",
@@ -1106,7 +1089,7 @@
   },
   {
     "theme": "",
-    "categoryOrder": "9",
+    "categoryOrder": "10",
     "category": "Support and Deployment",
     "functionOrder": "3",
     "function": "Premium Support",
@@ -1123,7 +1106,7 @@
   },
   {
     "theme": "",
-    "categoryOrder": "9",
+    "categoryOrder": "10",
     "category": "Support and Deployment",
     "functionOrder": "4",
     "function": "Enterprise API & Extensible Webhooks",
@@ -1140,7 +1123,7 @@
   },
   {
     "theme": "",
-    "categoryOrder": "9",
+    "categoryOrder": "10",
     "category": "Support and Deployment",
     "functionOrder": "6",
     "function": "Invoice Billing",
@@ -1157,7 +1140,7 @@
   },
   {
     "theme": "",
-    "categoryOrder": "9",
+    "categoryOrder": "10",
     "category": "Support and Deployment",
     "functionOrder": "7",
     "function": "Self-hosted Deployment",
@@ -1171,6 +1154,23 @@
     },
     "pricing_page": "x",
     "docs": "https://docs.layer5.io/cloud/self-hosted/"
+  },
+  {
+    "theme": "",
+    "categoryOrder": "1",
+    "category": "Lifecycle Management",
+    "functionOrder": "1",
+    "function": "Environments",
+    "feature": "Operational control of infrastructure and applications by group. Deploy to multiple Environments.",
+    "subscription_tier": "TeamOperator",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "x",
+      "enterprise": "x"
+    },
+    "pricing_page": "",
+    "docs": ""
   },
   {
     "theme": "",
@@ -1264,23 +1264,6 @@
     "functionOrder": "",
     "function": "Connections: Cluster discovery",
     "feature": "Day 2 support for ongoing synchronization of Kubernetes configuration, workloads and service mesh changes.",
-    "subscription_tier": "TeamOperator",
-    "comparison_tiers": {
-      "free": "",
-      "teamDesigner": "",
-      "teamOperator": "x",
-      "enterprise": "x"
-    },
-    "pricing_page": "",
-    "docs": ""
-  },
-  {
-    "theme": "",
-    "categoryOrder": "",
-    "category": "Environments",
-    "functionOrder": "1",
-    "function": "Environments",
-    "feature": "Operational control of infrastructure and applications by group. Deploy to multiple Environments.",
     "subscription_tier": "TeamOperator",
     "comparison_tiers": {
       "free": "",
@@ -1422,6 +1405,23 @@
       "free": "",
       "teamDesigner": "",
       "teamOperator": "x",
+      "enterprise": "x"
+    },
+    "pricing_page": "",
+    "docs": ""
+  },
+  {
+    "theme": "",
+    "categoryOrder": "1",
+    "category": "Life",
+    "functionOrder": "",
+    "function": "Timeline (DVR)",
+    "feature": "Playback service transactions. Scrub over the history of changes to your deployments.",
+    "subscription_tier": "Enterprise",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "",
       "enterprise": "x"
     },
     "pricing_page": "",
