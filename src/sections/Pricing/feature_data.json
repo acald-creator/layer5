@@ -1161,11 +1161,11 @@
     "category": "Catalog",
     "functionOrder": "708",
     "function": "Approve Catalog Request",
-    "feature": "Change management through a process of curation of content to be published in the catalog.",
+    "feature": "Change management for the curation of content published in the catalog.",
     "subscription_tier": "Enterprise",
     "comparison_tiers": {
       "free": "",
-      "teamDesigner": "x",
+      "teamDesigner": "",
       "teamOperator": "",
       "enterprise": "x"
     },
@@ -1327,6 +1327,23 @@
   },
   {
     "theme": "",
+    "categoryOrder": "9",
+    "category": "Managed Service Provider",
+    "functionOrder": "905",
+    "function": "Multi-tenancy",
+    "feature": "Hierarchical permissioning. Enforcement of tenancy.",
+    "subscription_tier": "",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "",
+      "enterprise": ""
+    },
+    "pricing_page": "x",
+    "docs": ""
+  },
+  {
+    "theme": "",
     "categoryOrder": "10",
     "category": "Support and Deployment",
     "functionOrder": "1001",
@@ -1354,7 +1371,7 @@
       "free": "",
       "teamDesigner": "x",
       "teamOperator": "x",
-      "enterprise": ""
+      "enterprise": "x"
     },
     "pricing_page": "",
     "docs": ""
