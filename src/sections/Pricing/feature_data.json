@@ -1174,6 +1174,40 @@
   },
   {
     "theme": "",
+    "categoryOrder": "7",
+    "category": "Catalog",
+    "functionOrder": "709",
+    "function": "Single and multiple approvers",
+    "feature": "",
+    "subscription_tier": "",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "",
+      "enterprise": ""
+    },
+    "pricing_page": "x",
+    "docs": "https://docs.layer5.io/cloud/catalog/"
+  },
+  {
+    "theme": "",
+    "categoryOrder": "7",
+    "category": "Catalog",
+    "functionOrder": "710",
+    "function": "Import Filter",
+    "feature": "Import a publish WASM filter",
+    "subscription_tier": "",
+    "comparison_tiers": {
+      "free": "",
+      "teamDesigner": "",
+      "teamOperator": "",
+      "enterprise": ""
+    },
+    "pricing_page": "x",
+    "docs": "https://docs.meshery.io/guides/configuration-management/filter-management"
+  },
+  {
+    "theme": "",
     "categoryOrder": "8",
     "category": "Security",
     "functionOrder": "801",
